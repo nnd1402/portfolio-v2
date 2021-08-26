@@ -42,7 +42,7 @@ const Pricing = () => {
                 <PortfolioCardFeatures>
                   <PortfolioCardFeature>Angular</PortfolioCardFeature>
                   <PortfolioCardFeature>Firebase</PortfolioCardFeature>
-                  <PortfolioCardFeature>Auth</PortfolioCardFeature>
+                  <PortfolioCardFeature>Bootstrap 4</PortfolioCardFeature>
                 </PortfolioCardFeatures>
                   <Button 
                     onClick={() => window.open("https://github.com/nnd1402/Fortisi.git")} 
