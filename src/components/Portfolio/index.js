@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import { Button } from '../ButtonElements';
 import { MdLocalGroceryStore } from 'react-icons/md'
-import { FaPlane } from 'react-icons/fa'
+import { FaShip } from 'react-icons/fa'
 import { MdAccessibility } from 'react-icons/md'
 import { IconContext } from 'react-icons/lib';
 import {
@@ -40,9 +40,9 @@ const Pricing = () => {
                 <PortfolioCardHead>E-commerce app</PortfolioCardHead>
                 <PortfolioCardTitle>Fortisi</PortfolioCardTitle>
                 <PortfolioCardFeatures>
-                  <PortfolioCardFeature>Angular</PortfolioCardFeature>
-                  <PortfolioCardFeature>Firebase</PortfolioCardFeature>
-                  <PortfolioCardFeature>Bootstrap 4</PortfolioCardFeature>
+                  <PortfolioCardFeature>Frontend: Angular</PortfolioCardFeature>
+                  <PortfolioCardFeature>Database: Firebase</PortfolioCardFeature>
+                  <PortfolioCardFeature>Styling: Bootstrap 4</PortfolioCardFeature>
                 </PortfolioCardFeatures>
                   <Button 
                     onClick={() => window.open("https://github.com/nnd1402/Fortisi.git")} 
@@ -62,17 +62,17 @@ const Pricing = () => {
             <PortfolioCard>
               <PortfolioCardInfo>
                 <PortfolioCardIcon>
-                  <FaPlane />
+                  <FaShip />
                 </PortfolioCardIcon>
-                <PortfolioCardHead>Booking app</PortfolioCardHead>
-                <PortfolioCardTitle>Travel</PortfolioCardTitle>
+                <PortfolioCardHead>Shipping app</PortfolioCardHead>
+                <PortfolioCardTitle>PanShipping</PortfolioCardTitle>
                 <PortfolioCardFeatures>
-                  <PortfolioCardFeature>Multipage HTML</PortfolioCardFeature>
-                  <PortfolioCardFeature>Javascript/jQuery</PortfolioCardFeature>
-                  <PortfolioCardFeature>Ajax/JSON-server</PortfolioCardFeature>
+                  <PortfolioCardFeature>Backend: Java/Spring</PortfolioCardFeature>
+                  <PortfolioCardFeature>Frontend: Angular</PortfolioCardFeature>
+                  <PortfolioCardFeature>Database: MySql</PortfolioCardFeature>
                 </PortfolioCardFeatures>
                 <Button 
-                    onClick={() => window.open("https://github.com/nnd1402/Travel-Agency.git")}
+                    onClick={() => window.open("https://github.com/nnd1402/PanshippingBack.git")}
                     onMouseEnter={onHover} 
                     onMouseLeave={onHover}
                     primary="true"
